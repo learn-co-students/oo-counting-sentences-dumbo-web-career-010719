@@ -16,6 +16,9 @@ class String
   end
 
   def count_sentences
-
+    index = 0
+    while index < self.length
+      puts self[index]
+    end
   end
 end
