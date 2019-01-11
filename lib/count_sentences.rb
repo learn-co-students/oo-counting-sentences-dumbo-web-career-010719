@@ -16,10 +16,12 @@ class String
   end
 
   def count_sentences
-    index = 0
-    while index < self.length
-      puts self[index]
-      index += 1
-    end
+    sentence_array = self.split(' ')
+    puts sentence_array
+    # index = 0
+    # while index < self.length
+    #   puts self[index]
+    #   index += 1
+    # end
   end
 end
