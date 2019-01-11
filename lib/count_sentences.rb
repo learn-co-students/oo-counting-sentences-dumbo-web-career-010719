@@ -19,6 +19,7 @@ class String
     index = 0
     while index < self.length
       puts self[index]
+      index += 1
     end
   end
 end
