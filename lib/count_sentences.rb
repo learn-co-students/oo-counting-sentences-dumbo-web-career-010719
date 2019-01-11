@@ -19,7 +19,7 @@ class String
     sentence_counter = 0
     sentence_array = self.split(' ')
     sentence_array.each do |sentence|
-      if sentence.end_with?(".") || sentence.end_with?("?") || sentence.end_with("!")
+      if sentence.end_with?(".") || sentence.end_with?("?") || sentence.end_with?("!")
          sentence_counter += 1
       end
     end
