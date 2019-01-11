@@ -23,12 +23,6 @@ class String
          sentence_counter += 1
       end
     end
-    # index = 0
-    # while index < self.length
-    #   puts self[index]
-    #   index += 1
-    # end
     return sentence_counter
   end
-
 end
