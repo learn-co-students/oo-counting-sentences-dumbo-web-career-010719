@@ -2,8 +2,9 @@ require 'pry'
 
 class String
 
+#blah
   def sentence?
-    
+
   end
 
   def question?
